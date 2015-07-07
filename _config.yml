@@ -1,14 +1,39 @@
 # Site settings
 title: 人在纽约
 email: ronghai@weinyc.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: > #  个人在纽约生活的见闻, 学习笔记以及各种杂项.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.weinyc.com" # the base hostname & protocol for your site
+
+#social networks
 twitter_username: RONGHAI
 github_username:  RONGHAI
+cash_username: RONGHAI
 
 # Build settings
 markdown: kramdown
+
+#source:      _source
+#destination: _deploy
+
+timezone: "America/New_York"
+encoding: "utf-8"
+
+permalink: /:categories/:year/:month/:day/:title/
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "RONGHAI"
+      comments: true
+  -
+    scope:
+      path: "pages"
+      type: "pages"
+    values:
+      layout: "page"
+      author: "RONGHAI"
