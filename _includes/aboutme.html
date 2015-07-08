@@ -1,0 +1,23 @@
+<div class="sidebar-module about">
+  <h4>{{ site.locales[site.default_locale].aboutme }}</h4>
+  {% if site.aboutme_photo != empty %}
+    <img title="{{site.author}}" src="{{site.aboutme_photo}}" alt="{{site.author}}"/>
+  {% endif %}
+  <span>{{site.aboutme}}</span>
+  <br />
+  {% if site.show_contact %}
+    You can contact me via:
+    {% if site.email != empty %}
+      <a href="mailto:{{site.email}}" title="mailto: {{site.email}}">Email</a> /
+    {% endif %}
+    {% if site.github_username != empty %}
+      <a href="https://github.com/{{site.github_username}}" title="Github: {{site.github_username}}">Github</a> /
+    {% endif %}
+    {% if site.twitter_username != empty %}
+      <a href="https://twitter.com/{{site.twitter_username}}" title="Twitter: {{site.twitter_username}}">Twitter</a>
+    {% endif %}
+    {% if site.cash_username != empty %}
+      <a href="https://cash.me/${{site.cash_username}}" title="Cashme: {{site.cash_username}}">Cash</a>
+    {% endif %}
+  {% endif %}
+</div>

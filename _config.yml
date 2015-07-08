@@ -1,0 +1,91 @@
+### Site info:
+
+title: 人在纽约
+tagline: "To Be A New Yorker"
+author: RONGHAI
+email: ronghai@weinyc.com
+description: "个人在纽约生活的见闻, 学习笔记以及各种杂项."
+keywords: "weinyc, 人在纽约"
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.weinyc.com" # the base hostname & protocol for your site
+locale: en_US
+timezone: "America/New_York"
+encoding: "utf-8"
+
+### Personal info and site tools info:
+twitter_username: RONGHAI
+github_username:  ronghai
+google_analytics: ""
+instagram_username: ""
+cash_username: ronghai
+disqus_shortname: weinyc
+favicon:     "/images/favicon.ico"
+aboutme: To Be A New Yorker. # these are shown on aboutme-sidebar.
+aboutme_photo: # your photo.
+
+
+### Site setting:
+show_contact:  true # Personal Info (twitter,github,email) can be seen on aboutme-sidebar, those info only shown when ShowContactInfo == True
+default_column: "two" # blog style: two columns, if default_column != "two", you will see a one column blog.
+default_locale: "cn" # blog sidebar language set, only include: English(en) and Chinese (cn)
+
+locales:
+    en:
+      aboutme: "About Me"
+      archives: "Archives"
+      blogroll: "Blogroll"
+      categories: "Categories"
+      copyright_notice: "Copyright Notice"
+      recent_posts: "Recent Posts"
+      tags: "Tags"
+      previous: "Older"
+      next: "Newer"
+      posted_in_categories: "Posted in"
+      tagged_with: "and tagged"  
+      post_date: "on "
+    cn:
+      aboutme: "关于我"
+      archives: "存档"
+      blogroll: "良师益友"        
+      categories: "分类目录"    
+      copyright_notice: "版权声明"
+      recent_posts: "近期文章"
+      tags: "标签" 
+      previous: "前一页"
+      next: "后一页"
+      posted_in_categories: "目录:"   
+      tagged_with: "| 标签:"
+      post_date: "| 发表时间: "
+
+
+### your Blogroll info, only name can shown on the page.
+
+blogroll:
+    - name: Freshman21
+      href: http://yulijia.net/freshman21
+      title: Freshman21
+
+### Build settings
+markdown: kramdown
+highlighter: pygments
+paginate: 5
+
+exclude: ["_templates", "Rakefile", "README.md", "LICENSE"]
+permalink: /posts/:year/:month/:day/:title/
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "RONGHAI"
+      comments: true
+  -
+    scope:
+      path: "pages"
+      type: "pages"
+    values:
+      layout: "page"
+      author: "RONGHAI"
