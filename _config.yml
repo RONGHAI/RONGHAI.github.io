@@ -21,7 +21,7 @@ encoding: "utf-8"
 
 exclude: ["_templates"]
 
-permalink: /:categories/:year/:month/:day/:title/
+permalink: /posts/:year/:month/:day/:title/
 
 defaults:
   -
