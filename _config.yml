@@ -8,7 +8,7 @@ description: "个人在纽约生活的见闻, 学习笔记以及各种杂项."
 keywords: "weinyc, 人在纽约"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.weinyc.com" # the base hostname & protocol for your site
-locale: en_US
+locale: zh_CN
 timezone: "America/New_York"
 encoding: "utf-8"
 
@@ -21,7 +21,7 @@ cash_username: ronghai
 disqus_shortname: weinyc
 favicon:     "/images/favicon.ico"
 aboutme: To Be A New Yorker. # these are shown on aboutme-sidebar.
-aboutme_photo: # your photo.
+aboutme_photo: ""# your photo.
 
 
 ### Site setting:
