@@ -43,6 +43,7 @@ locales:
       posted_in_categories: "Posted in"
       tagged_with: "and tagged"  
       post_date: "on "
+      comment: "Comment"
     cn:
       aboutme: "关于我"
       archives: "存档"
@@ -56,6 +57,7 @@ locales:
       posted_in_categories: "目录:"   
       tagged_with: "标签:"
       post_date: "发表时间: "
+      comment: "评论"
 
 
 ### your Blogroll info, only name can shown on the page.
