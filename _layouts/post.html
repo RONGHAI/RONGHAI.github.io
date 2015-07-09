@@ -23,6 +23,9 @@ layout: default
     <time itemprop="datePublished" datetime="{{ page.date | date: '%Y-%m-%d' }}">
     {{ site.locales[site.default_locale].post_date }}{{ page.date | date: "%b %-d, %Y" }}
     </time>
+    {% if page.comments %}
+      &nbsp;|&nbsp; <a href="#disqus_thread"> {{ site.locales[site.default_locale].comment }} </a>
+    {% endif %}
     </p>
   </header>
   <article class="post-content" itemprop="articleBody">
