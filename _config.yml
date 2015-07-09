@@ -54,8 +54,8 @@ locales:
       previous: "前一页"
       next: "后一页"
       posted_in_categories: "目录:"   
-      tagged_with: "| 标签:"
-      post_date: "| 发表时间: "
+      tagged_with: "标签:"
+      post_date: "发表时间: "
 
 
 ### your Blogroll info, only name can shown on the page.
