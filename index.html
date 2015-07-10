@@ -11,7 +11,7 @@ layout: default
         </h1>
         <meta itemprop="keywords" content="{{ post.tags | join: ',' }}" />
         <p class="post-meta">
-        {% if page.categories != empty  %}
+        {% if post.categories != empty  %}
           {{ site.locales[site.default_locale].posted_in_categories }}
           {% for cat in post.categories %}
           <a href="{{site.baseurl}}/categories/#{{ cat }}">{{ cat }}</a>&nbsp;
@@ -29,7 +29,7 @@ layout: default
         <time itemprop="datePublished" datetime="{{ post.date | date: '%Y-%m-%d' }}">
         {{ site.locales[site.default_locale].post_date }}{{ post.date | date: "%b %-d, %Y" }}
         </time>
-        {% if page.comments %}
+        {% if post.comments %}
           &nbsp;|&nbsp; <a href="{{ post.url | prepend: site.baseurl }}#disqus_thread"> {{ site.locales[site.default_locale].comment }} </a>
         {% endif %}
         </p>
