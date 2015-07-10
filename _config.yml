@@ -47,6 +47,7 @@ locales:
       comment: "Comment"
       search: "Search"
       read_more: "Read more"
+      no_post: "No Post"
     cn:
       aboutme: "关于我"
       archives: "存档"
@@ -63,6 +64,7 @@ locales:
       comment: "评论"
       search: "搜索"
       read_more: "阅读更多"
+      no_post: "没有文章"
 
 
 ### your Blogroll info, only name can shown on the page.

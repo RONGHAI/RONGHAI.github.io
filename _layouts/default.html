@@ -7,7 +7,6 @@
   {% if site.default_column == "two" %}  
     <div class="page-content col-sm-8">
       {{ content }}
-      {% include default_pagination.html %}
     </div>
     {% include sidebar.html %}
   {% else %}
@@ -15,7 +14,6 @@
       <div class="wrapper">
         {{ content }}
       </div>
-      {% include default_pagination.html %}
     </div>
   {% endif %}
   {% include footer.html %}
