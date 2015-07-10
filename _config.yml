@@ -11,6 +11,7 @@ url: "http://www.weinyc.com" # the base hostname & protocol for your site
 locale: zh_CN
 timezone: "America/New_York"
 encoding: "utf-8"
+excerpt_separator: "<!-- more -->"
 
 ### Personal info and site tools info:
 twitter_username: RONGHAI
@@ -45,6 +46,7 @@ locales:
       post_date: "on "
       comment: "Comment"
       search: "Search"
+      read_more: "Read more"
     cn:
       aboutme: "关于我"
       archives: "存档"
@@ -60,6 +62,7 @@ locales:
       post_date: "发表时间: "
       comment: "评论"
       search: "搜索"
+      read_more: "阅读更多"
 
 
 ### your Blogroll info, only name can shown on the page.
