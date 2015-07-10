@@ -19,7 +19,7 @@ google_analytics: ""
 instagram_username: ""
 cash_username: ronghai
 disqus_shortname: weinyc
-favicon:     "/images/favicon.ico"
+favicon:     "/images/icon"
 aboutme: To Be A New Yorker. # these are shown on aboutme-sidebar.
 aboutme_photo: ""# your photo.
 
@@ -44,6 +44,7 @@ locales:
       tagged_with: "and tagged"  
       post_date: "on "
       comment: "Comment"
+      search: "Search"
     cn:
       aboutme: "关于我"
       archives: "存档"
@@ -58,6 +59,7 @@ locales:
       tagged_with: "标签:"
       post_date: "发表时间: "
       comment: "评论"
+      search: "搜索"
 
 
 ### your Blogroll info, only name can shown on the page.
