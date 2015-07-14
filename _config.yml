@@ -68,11 +68,7 @@ locales:
 
 
 ### your Blogroll info, only name can shown on the page.
-
-blogroll:
-    - name: Freshman21
-      href: http://yulijia.net/freshman21
-      title: Freshman21
+#put blogroll in _data/blogroll.yml
 
 ### Build settings
 markdown: kramdown
