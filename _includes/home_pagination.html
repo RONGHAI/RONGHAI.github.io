@@ -1,14 +1,14 @@
 <section class="pager">
   <ul>
    {% if paginator.next_page %}
-    <li class="previous"><a href="{{site.baseurl}}/page{{ paginator.next_page }}/" title="{{ site.locales[site.default_locale].previous }}">{{ site.locales[site.default_locale].previous }} &larr;</a></li>
+    <li class="previous"><a href="{{site.baseurl}}/page{{ paginator.next_page }}/" title="{{ site.data.locales[site.default_locale].previous }}">{{ site.data.locales[site.default_locale].previous }} &larr;</a></li>
    {% endif %}
 
   {% if paginator.previous_page %}
     {% if paginator.previous_page == 1 %}
-    <li class="next"><a href="{{site.baseurl}}/" title="{{ site.locales[site.default_locale].next }}">&rarr; {{ site.locales[site.default_locale].next }}</a></li>
+    <li class="next"><a href="{{site.baseurl}}/" title="{{ site.data.locales[site.default_locale].next }}">&rarr; {{ site.data.locales[site.default_locale].next }}</a></li>
     {% else %}
-    <li class="next"><a href="{{site.baseurl}}/page{{ paginator.previous_page }}/" title="{{ site.locales[site.default_locale].next }}">&rarr; {{ site.locales[site.default_locale].next }}</a></li>
+    <li class="next"><a href="{{site.baseurl}}/page{{ paginator.previous_page }}/" title="{{ site.data.locales[site.default_locale].next }}">&rarr; {{ site.data.locales[site.default_locale].next }}</a></li>
     {% endif %}
   {% endif %}
   </ul>
