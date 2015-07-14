@@ -12,7 +12,7 @@ layout: default
         <meta itemprop="keywords" content="{{ post.tags | join: ',' }}" />
         <p class="post-meta">
         {% if post.categories != empty  %}
-          {{ site.locales[site.default_locale].posted_in_categories }}
+          {{ "posted_in_categories" | localize }}
           {% for cat in post.categories %}
           <a href="{{site.baseurl}}/categories/#{{ cat }}">{{ cat }}</a>&nbsp;
           {% endfor %}
@@ -20,17 +20,17 @@ layout: default
         {% endif %}
 
         {% if post.tags != empty %}
-          {{ site.locales[site.default_locale].tagged_with }}
+          {{ "tagged_with" | localize }}
           {% for tag in post.tags %}
           <a href="{{ site.baseurl }}/tags/#{{ tag }}" title="{{ tag }}">{{ tag }} </a>{% unless post.tags.last == tag %}, {% endunless %}
           {% endfor %}
           |&nbsp;
         {% endif %}
         <time itemprop="datePublished" datetime="{{ post.date | date: '%Y-%m-%d' }}">
-        {{ site.locales[site.default_locale].post_date }}{{ post.date | date: "%b %-d, %Y" }}
+        {{ "post_date" | localize }}{{ post.date | date: "%b %-d, %Y" }}
         </time>
         {% if post.comments %}
-          &nbsp;|&nbsp; <a href="{{ post.url | prepend: site.baseurl }}#disqus_thread"> {{ site.locales[site.default_locale].comment }} </a>
+          &nbsp;|&nbsp; <a href="{{ post.url | prepend: site.baseurl }}#disqus_thread"> {{ "comment" | localize }} </a>
         {% endif %}
         </p>
       </header>
@@ -38,7 +38,7 @@ layout: default
       <article class="post-content" itemprop="articleBody">
         {% if post.content contains site.excerpt_separator %}
           {{ post.excerpt }}
-            <p style="text-align: right"><a href="{{ post.url | prepend: site.baseurl }}">{{ site.locales[site.default_locale].read_more }} </a></p>
+            <p style="text-align: right"><a href="{{ post.url | prepend: site.baseurl }}">{{ "read_more" | localize }} </a></p>
         {% else %}
           {{ post.content }}
         {% endif %}
