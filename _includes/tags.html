@@ -1,6 +1,6 @@
 {% if site.tags != empty %}
 <div class="sidebar-module">
-  <h4>{{ site.locales[site.default_locale].tags }}</h4>
+  <h4>{{ site.data.locales[site.default_locale].tags }}</h4>
   {% for tag in site.tags %}
     <a href="{{ site.baseurl }}/tags/#{{ tag[0] }}" title="{{ tag[0] }}" rel="tag">{{ tag[0] }}<sup>{{ tag[1].size }}</sup></a> &nbsp;
   {% endfor %}

@@ -29,6 +29,6 @@ permalink: /tags/
   </ul>
 {% else %}  
     <ul class="tags-box">
-      <li>{{ site.locales[site.default_locale].no_post }}</li>
+      <li>{{ site.data.locales[site.default_locale].no_post }}</li>
     </ul>
 {% endif %}
