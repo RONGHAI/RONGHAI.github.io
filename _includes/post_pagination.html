@@ -3,12 +3,12 @@
     {% if page.previous %}
       <li class="previous"><a href="{{ site.baseurl }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; {{ page.previous.title }}</a></li>
     {% else %}
-      <li class="disabled"><a>&larr; {{ site.locales[site.default_locale].previous }}</a></li>
+      <li class="disabled"><a>&larr; {% i18n previous %}</a></li>
     {% endif %}
     {% if page.next %}
       <li class="next"><a href="{{ site.baseurl }}{{ page.next.url }}" title="{{ page.next.title }}">{{ page.next.title }} &rarr;</a></li>
     {% else %}
-      <li class="disabled"><a>{{ site.locales[site.default_locale].next }} &rarr;</a>
+      <li class="disabled"><a>{% i18n next %} &rarr;</a>
     {% endif %}
   </ul>
 </section>

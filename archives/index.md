@@ -34,6 +34,6 @@ permalink: /archives/
   </ul>
 {% else %}  
     <ul class="tags-box">
-      <li>{{ site.locales[site.default_locale].no_post }}</li>
+      <li>{% i18n no_post %}</li>
     </ul>
 {% endif %}

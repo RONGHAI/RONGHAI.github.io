@@ -7,24 +7,24 @@ layout: default
     <meta itemprop="keywords" content="{{ page.tags | join: ',' }}" />
     <p class="post-meta">
     {% if page.categories != empty  %}
-      {{ site.locales[site.default_locale].posted_in_categories }}
+      {% i18n posted_in_categories %}
       {% for cat in page.categories %}
       <a href="{{site.baseurl}}/categories/#{{ cat }}">{{ cat }}</a>&nbsp;
       {% endfor %}
       |&nbsp;
     {% endif %}
     {% if page.tags != empty %}
-      {{ site.locales[site.default_locale].tagged_with }}
+      {% i18n tagged_with %}
       {% for tag in page.tags %}
       <a href="{{ site.baseurl }}/tags/#{{ tag }}" title="{{ tag }}">{{ tag }} </a>{% unless page.tags.last == tag %}, {% endunless %}
       {% endfor %}
       |&nbsp;
     {% endif %}
     <time itemprop="datePublished" datetime="{{ page.date | date: '%Y-%m-%d' }}">
-    {{ site.locales[site.default_locale].post_date }}{{ page.date | date: "%b %-d, %Y" }}
+    {% i18n post_date %}{{ page.date | date: "%b %-d, %Y" }}
     </time>
     {% if page.comments %}
-      &nbsp;|&nbsp; <a href="#disqus_thread"> {{ site.locales[site.default_locale].comment }} </a>
+      &nbsp;|&nbsp; <a href="#disqus_thread"> {% i18n comment %} </a>
     {% endif %}
     </p>
   </header>
