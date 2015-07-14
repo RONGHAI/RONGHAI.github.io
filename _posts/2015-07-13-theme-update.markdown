@@ -2,7 +2,7 @@
 layout: post
 title:  "主题更新"
 date:   2015-07-13 23:02:15
-categories: “编程随记”
+categories: 编程随记
 comments: true
 ---
 
