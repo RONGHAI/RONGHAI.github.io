@@ -2,6 +2,7 @@
 layout: page
 title: 标签
 permalink: /tags/
+order: 21
 ---
 
 {% if site.posts != empty %}

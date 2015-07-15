@@ -2,6 +2,7 @@
 layout: page
 title: 目录
 permalink: /categories/
+order: 18
 ---
 
 {% if site.posts != empty %}
