@@ -40,7 +40,7 @@ markdown: kramdown
 highlighter: pygments
 paginate: 5
 
-exclude: ["_templates", "Rakefile", "README.md", "LICENSE"]
+exclude: ["_templates", "Rakefile", "README.md", "LICENSE", "guestbook"]
 permalink: /posts/:year/:month/:day/:title/
 
 defaults:
