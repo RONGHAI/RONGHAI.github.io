@@ -3,6 +3,7 @@ layout: page
 title: 简历
 permalink: /resume/
 single_page: true
+order: 29
 ---
 WORK EXPERIENCE
 ---

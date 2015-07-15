@@ -2,6 +2,7 @@
 layout: page
 title: 存档
 permalink: /archives/
+order: 24
 ---
 
 {% if site.posts != empty %}
