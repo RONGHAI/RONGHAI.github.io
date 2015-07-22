@@ -1,14 +1,14 @@
 ### Site info:
 
-title: 人在纽约
+title: RONGHAI@NYC|人在纽约
 tagline: "To Be A New Yorker"
 author: RONGHAI
 email: ronghai@weinyc.com
-description: "个人在纽约生活的见闻, 学习笔记以及各种杂项."
-keywords: "weinyc, 人在纽约"
+description: "个人在纽约生活的见闻, 学习笔记以及各种杂项. A programmer who live in NYC. A programmer is not a real programmer."
+keywords: "weinyc, 人在纽约, RONGHAI, WEI"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.weinyc.com" # the base hostname & protocol for your site
-locale: zh_CN
+locale: en_US
 timezone: "America/New_York"
 encoding: "utf-8"
 excerpt_separator: "<!-- more -->"
@@ -27,7 +27,7 @@ aboutme_photo: ""# your photo.
 
 ### Site setting:
 show_contact:  true # Personal Info (twitter,github,email) can be seen on aboutme-sidebar, those info only shown when ShowContactInfo == True
-default_column: "two" # blog style: two columns, if default_column != "two", you will see a one column blog.
+default_column: "one" # blog style: two columns, if default_column != "two", you will see a one column blog.
 default_locale: "cn" # blog sidebar language set, only include: English(en) and Chinese (cn)
 
 #put locales in data/locales.yml
