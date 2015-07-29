@@ -321,3 +321,60 @@ cite{
 }
 
 .social-media-list { list-style: none; margin-left: 0; }
+
+
+
+button, input, select, textarea {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline; 
+}
+
+button, input {
+  line-height: normal; 
+}
+
+button, select {
+  text-transform: none; 
+}
+
+button, html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer; 
+}
+
+button[disabled], input[disabled] {
+  cursor: default; 
+}
+
+input[type="checkbox"], input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0; 
+}
+
+.message{
+  
+  input, button,  textarea{
+    display:block;
+    margin-top:10px;  
+  }
+  input, textarea, select{
+    width: 600px;
+    padding: 0.9em;
+    border: 1px solid #ddd;
+    font-size: 0.8em;
+  }
+  button{
+    border: 2px solid #359173;
+    color: #359173;
+    background: transparent;
+    line-height: 1em;
+    padding: 0.6em 0.9em;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+    font-size: 1em;
+  }
+
+}
