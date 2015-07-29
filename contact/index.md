@@ -10,8 +10,8 @@ order: 30
 <div>
 
 	<form action="https://formspree.io/ronghai@weinyc.com" method="POST" class="message">
-	  <input type="text" name="email" placeholder="Your email" >
-	  <textarea type="text" name="content"  rows="8" placeholder="Your message"></textarea>
+	  <input type="email" name="email" placeholder="Your email" >
+	  <textarea type="text" required name="content"  rows="8" placeholder="Your message"></textarea>
 	  <input type="hidden" name="_subject" value="新留言!" />
 	  <!-- <input type="hidden" name="_next" value="" /> -->
 	  <input type="text" name="_gotcha" style="display:none" />
