@@ -10,7 +10,7 @@ order: 30
 <div>
 
 	<form action="https://formspree.io/ronghai@weinyc.com" method="POST" class="message">
-	  <input type="email" name="email" placeholder="Your email" >
+	  <input type="email" required name="email" placeholder="Your email" > 
 	  <textarea type="text" required name="content"  rows="8" placeholder="Your message"></textarea>
 	  <input type="hidden" name="_subject" value="新留言!" />
 	  <!-- <input type="hidden" name="_next" value="" /> -->
