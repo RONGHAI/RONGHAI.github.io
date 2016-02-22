@@ -59,3 +59,9 @@ defaults:
     values:
       layout: "page"
       author: "RONGHAI"
+
+gems : 
+  - jekyll-paginate
+  - kramdown
+  - pygments.rb
+
