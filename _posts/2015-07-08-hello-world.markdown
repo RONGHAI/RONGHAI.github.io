@@ -17,7 +17,8 @@ comments: true
 {% highlight Bash shell scripts linenos %}
 $ git fetch origin theme:theme
 $ git fetch origin posts:posts
-$ git cherry-pick A..B #commits from A (not include) to B
+$ git cherry-pick A..B 
+#commits from A (not include) to B
 # A^..B, A included
 {% endhighlight %} 
 
@@ -25,11 +26,11 @@ $ git cherry-pick A..B #commits from A (not include) to B
 
 {% highlight Bash shell scripts linenos %}
 $ git checkout --orphan pages
-$ #git remove all files except pages
+#git remove all files except pages
 $ git add --all
 $ git commit -m "Initial branch pages"
 $ git push origin pages
-$ #in master branch
+#in master branch
 $ git checkout master
 $ git fetch origin pages:pages
 $ git cherry-pick A..B 
