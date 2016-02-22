@@ -8,7 +8,7 @@ comments: true
 
 这两天把主题Freshman21做了一些更新，当然由于项目并没有fork原始的repo，而且我的修改和原始的master已经有很大差别，所以主题文件依然存放在自己项目分支下。
 
-{% highlight Bash shell scripts%}
+{% highlight shell scripts%}
 git clone https://github.com/ronghai/ronghai.github.io.git -b theme --single-branch
 {% endhighlight %}
 

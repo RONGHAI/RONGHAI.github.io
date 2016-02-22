@@ -14,23 +14,23 @@ comments: true
 * branch posts 存放写的日志
 * branch master, 使用git cherry-pick 获取theme和posts branches的更新
 
-{% highlight Bash shell scripts linenos %}
+{% highlight shell linenos %}
 $ git fetch origin theme:theme
 $ git fetch origin posts:posts
 $ git cherry-pick A..B 
-#commits from A (not include) to B
+# commits from A (not include) to B
 # A^..B, A included
 {% endhighlight %} 
 
 下一步打算是考虑将pages放在一个单独的branch， 不过由于pages的更新比较少，也可能不会这么做。
 
-{% highlight Bash shell scripts linenos %}
+{% highlight shell linenos %}
 $ git checkout --orphan pages
-#git remove all files except pages
+# git remove all files except pages
 $ git add --all
 $ git commit -m "Initial branch pages"
 $ git push origin pages
-#in master branch
+# in master branch
 $ git checkout master
 $ git fetch origin pages:pages
 $ git cherry-pick A..B 
