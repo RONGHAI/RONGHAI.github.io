@@ -37,7 +37,7 @@ default_locale: "cn" # blog sidebar language set, only include: English(en) and 
 
 ### Build settings
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 lsi:         false
 incremental: false
 paginate: 5
