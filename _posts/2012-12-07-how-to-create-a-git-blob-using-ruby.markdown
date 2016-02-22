@@ -6,7 +6,7 @@ comments: true
 categories: 编程随记
 ---
 
-{% highlight bash linenos %}
+{% highlight ruby linenos %}
 #!/bin/env ruby
 require 'digest/sha1'
 require 'zlib'
@@ -20,7 +20,7 @@ store = header + content
 #create SHA1 hash
 sha1 = Digest::SHA1.hexdigest(store)
 #create file, the first 2 letters are floder and the left is file name
-path = '.git/objects/' < < sha1[0,2] << '/' << sha1[2,38]
+path = '.git/objects/' << sha1[0,2] << '/' << sha1[2,38]
 FileUtils.mkdir_p(File.dirname(path))
 #using zlib to compress store content
 zlib_content = Zlib::Deflate.deflate(store)
