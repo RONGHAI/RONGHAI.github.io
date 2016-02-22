@@ -6,7 +6,7 @@ comments: true
 categories: 编程随记
 ---
 
-{% highlight Bash shell scripts linenos %}
+{% highlight bash linenos %}
 #!/bin/env ruby
 require 'digest/sha1'
 require 'zlib'

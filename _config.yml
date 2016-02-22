@@ -38,6 +38,8 @@ default_locale: "cn" # blog sidebar language set, only include: English(en) and 
 ### Build settings
 markdown: kramdown
 highlighter: pygments
+lsi:         false
+incremental: false
 paginate: 5
 
 exclude: ["_templates", "Rakefile", "README.md", "LICENSE", "guestbook"]
@@ -63,5 +65,5 @@ defaults:
 gems : 
   - jekyll-paginate
   - kramdown
-  - pygments.rb
+  - rouge
 
