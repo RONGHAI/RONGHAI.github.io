@@ -6,7 +6,7 @@ single_page: true
 order: 29
 ---
 
-####WORK EXPERIENCE####
+#### WORK EXPERIENCE
 
 * **Lake 5 Media, New York** (2/15/2011 – Present)
     * Industry: Marketing and Advertising, Privately Held
@@ -34,18 +34,18 @@ order: 29
     * Environment & Tools
       * Java, Eclipse, Toad, Oracle, HomeSite, Tomcat 
 
-####EDUCATIONAL & CERTIFICATION
+#### EDUCATIONAL & CERTIFICATION
 
 * **Hohai University**
   * B.S. in Management, 09/2004-06/2008
   * Major is E-commercial,  B.S in Management
 
-####LANGUAGE SKILLS
+#### LANGUAGE SKILLS
 
 * Proficient in Mandarin: Conversation, reading and writing.
 * English:  Conversation, reading and writing
 
-####TECHNICAL KNOWLEDGE
+#### TECHNICAL KNOWLEDGE
 
 * Java, JavaScript, Ruby, HTML, Database, Linux, Perl,  Apple Script
 * Expertise in Java web development
