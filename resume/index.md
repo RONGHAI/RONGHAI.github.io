@@ -6,7 +6,7 @@ single_page: true
 order: 29
 ---
 
-####WORK EXPERIENCE
+####WORK EXPERIENCE####
 
 * **Lake 5 Media, New York** (2/15/2011 – Present)
     * Industry: Marketing and Advertising, Privately Held
